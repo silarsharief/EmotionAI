@@ -1,0 +1,17 @@
+openai-whisper
+sounddevice
+numpy
+torch
+scipy
+av
+faster-whisper
+pyaudio
+langchain 
+langchain-community 
+ollama
+langchain-core
+langchain_groq
+duckduckgo-search
+python-dotenv
+coqui-tts
+TTS==0.21.1
