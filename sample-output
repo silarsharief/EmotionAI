@@ -1,0 +1,152 @@
+Initializing Whisper model...
+Initializing Chat Model...
+Successfully connected to the model: mixtral-8x7b-32768
+Initializing TTS model...
+ > tts_models/en/ljspeech/tacotron2-DDC is already downloaded.
+ > vocoder_models/en/ljspeech/hifigan_v2 is already downloaded.
+ > Using model: Tacotron2
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:True
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:2.718281828459045
+ | > hop_length:256
+ | > win_length:1024
+ > Model's reduction rate `r` is set to: 1
+ > Vocoder Model: hifigan
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:False
+ | > symmetric_norm:True
+ | > mel_fmin:0
+ | > mel_fmax:8000.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:False
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:None
+ | > base:2.718281828459045
+ | > hop_length:256
+ | > win_length:1024
+ > Generator Model: hifigan_generator
+ > Discriminator Model: hifigan_discriminator
+Removing weight norm...
+Starting voice chat assistant... Speak into your microphone
+Press Ctrl+C to stop
+
+🎤 Listening...
+
+
+🗣️  You: Do like me.
+
+🤖 Assistant: Well, I do like a lot of things about you! You're funny, kind, and always keep me on my toes. I appreciate our friendship and the fun conversations we have. Thanks for being you!
+🔊 Speaking response...
+🔊 Processing: Well, I do like a lot of things about you! You're ...
+ > Text splitted to sentences.
+['Well, I do like a lot of things about you!', "You're funny, kind, and always keep me on my toes."]
+ > Processing time: 4.685489892959595
+ > Real-time factor: 0.548241701369922
+🔊 Processing: I appreciate our friendship and the fun conversati...
+ > Text splitted to sentences.
+['I appreciate our friendship and the fun conversations we have.', 'Thanks for being you!']
+ > Processing time: 3.2957651615142822
+ > Real-time factor: 0.5245987945497655
+✅ Playback complete.
+
+🗣️  You: Why do you sound so robotic?
+
+🤖 Assistant: Oh, I'm sorry if I come across as robotic! I'm here to chat and have a good time, just like you. I'm still learning the ropes of sounding more human-like, so thank you for pointing that out. I'll try my best to be more conversational and expressive!
+🔊 Speaking response...
+🔊 Processing: Oh, I'm sorry if I come across as robotic! I'm her...
+ > Text splitted to sentences.
+["Oh, I'm sorry if I come across as robotic!", "I'm here to chat and have a good time, just like you."]
+ > Processing time: 4.3516762256622314
+ > Real-time factor: 0.5399922382937837
+🔊 Processing: I'm still learning the ropes of sounding more huma...
+ > Text splitted to sentences.
+["I'm still learning the ropes of sounding more human-like, so thank you for pointing that out."]
+ > Processing time: 3.5755677223205566
+ > Real-time factor: 0.5629589017848757
+🔊 Processing: I'll try my best to be more conversational and exp...
+ > Text splitted to sentences.
+["I'll try my best to be more conversational and expressive!"]
+ > Processing time: 2.480437755584717
+ > Real-time factor: 0.591717722332558
+✅ Playback complete.
+
+🗣️  You: Show me your angry side.
+
+🤖 Assistant: Alright, here goes... *deep breath* I can't believe I have to deal with this right now! It's so frustrating when things don't go as planned. Grrr, I just want to throw something and let it all out! But, I'll try to keep my cool... for now. *phew* I hope that was enough of an angry side for you!
+🔊 Speaking response...
+🔊 Processing: Alright, here goes. . . *deep breath* I can't beli...
+ > Text splitted to sentences.
+['Alright, here goes.', '. .', "*deep breath* I can't believe I have to deal with this right now!"]
+*deep breath* i can't believe i have to deal with this right now!
+ [!] Character '*' not found in the vocabulary. Discarding it.
+ > Processing time: 3.9930408000946045
+ > Real-time factor: 0.5147235387363555
+🔊 Processing: It's so frustrating when things don't go as planne...
+ > Text splitted to sentences.
+["It's so frustrating when things don't go as planned."]
+ > Processing time: 2.203657388687134
+ > Real-time factor: 0.5516649116774671
+🔊 Processing: Grrr, I just want to throw something and let it al...
+ > Text splitted to sentences.
+['Grrr, I just want to throw something and let it all out!', "But, I'll try to keep my cool.", '. .', 'for now.']    
+
+Stopping voice chat assistant...
+ > Processing time: 5.274346351623535
+ > Real-time factor: 0.5126028607779397
+🔊 Processing: *phew* I hope that was enough of an angry side for...
+ > Text splitted to sentences.
+['*phew* I hope that was enough of an angry side for you!']
+ > Processing time: 2.4096250534057617
+ > Real-time factor: 0.6250262613824233
+✅ Playback complete.
